@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Panier</title>
+</head>
+<body>
+    <div class="container">
+        <div  class="prod " id="prod1">
+            <h1>Produit1 <br></h1>
+            <h2>Quantité<input type="button" id="btn-" value="-">
+            <input type="button" id= "quant" value="0">
+            <input type="button" id="btn+" value="+"></h2>
+            <span id="price1">prix:7000FR</span>
+            <button class="btn1"><i class="fa-sharp fa-solid fa-trash "></i></button>
+            <button class="like1"><i class="fa-sharp fa-regular fa-heart "></i></button>
+
+        </div>
+        <div class="prod " id="prod2">
+            <h1>Produit2 <br></h1>
+            <h2>Quantité<input type="button" id="btn-2" value="-">
+            <input type="button" id="quant2" value="0">
+            <input type="button" id="btn+2" value="+"></h2>
+            <span id="price2">prix:3000FR</span>
+            <button class="btn2"><i class="fa-sharp fa-solid fa-trash " id="del2 "></i></button>
+            <button class="like2"><i class="fa-sharp fa-regular fa-heart" id=" like2 "></i></button>
+        </div>
+        <span>Total</span><br>
+        <span id="total">10000FR</span>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>

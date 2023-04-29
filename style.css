@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+}
+
+.container{
+    
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 7%;
+    text-align: center;
+    border-radius: 7%;
+    
+
+#prod1{
+    background-color: #ebedf0;
+    width: 70%;
+    height:15rem;
+    margin-left: 10%;
+    margin-top:8%;
+
+}
+
+#prod2{
+    background-color: #dbdfe5;
+    margin-top: 3%;
+    width: 70%;
+    height: 15rem;
+    margin-left: 10%
+
+}
+
+#quant{
+    
+    justify-content: space-around;
+}
+
+
+h1{
+    padding: 3%;
+}
+#supprimer{
+    cursor:grab;
+}
+#like{
+    cursor:grab;
+}
